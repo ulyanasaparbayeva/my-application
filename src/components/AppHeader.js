@@ -11,8 +11,7 @@ const navigation = [
 export default function Example() {
  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
-        <div class="container">
-            <div className="">
+            <div className="shadow-md">
                 <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
                     <svg
                         className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -42,7 +41,7 @@ export default function Example() {
                 </div>
                 <div className="px-6 pt-6 lg:px-8">
                     <div>
-                        <nav className="flex h-9 items-center justify-between mb-[31px] " aria-label="Global">
+                        <nav className="flex h-9 items-center justify-between pb-[20px;]" aria-label="Global">
                             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
                                 <a href="#" className="-m-1.5 p-1.5">
                                     <span className="sr-only">Your Company</span>
@@ -166,8 +165,6 @@ export default function Example() {
                     </div>
                 </div>
             </div>
-
-        </div>
     );
 }
 
